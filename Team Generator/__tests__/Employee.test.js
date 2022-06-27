@@ -1,5 +1,3 @@
-const { exportAllDeclaration } = require('@babel/types');
-const { default: test } = require('node:test');
 const Employee = require('../lib/Employee');
 const employee = new Employee ('holden', '7429', 'holdenatkinson@gmail.com');
 
