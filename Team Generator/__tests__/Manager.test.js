@@ -10,7 +10,7 @@ const manager = new Manager(
 test("test for constructor values of intern object", () => {
   expect(manager.name).toBe("holden");
   expect(manager.id).toBe("7429");
-  expect(intemanagerrn.email).toBe("holdenatkinson@gmail.com");
+  expect(manager.email).toBe("holdenatkinson@gmail.com");
   expect(manager.officeNumber).toBe("University of Utah");
 });
 
